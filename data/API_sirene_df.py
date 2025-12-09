@@ -7,7 +7,6 @@ API_KEY = "2e19c44e-91b4-4c19-99c4-4e91b40c193f"
 BASE_URL = "https://api.insee.fr/api-sirene/3.11/siret"
 
 
-
 def query_sirene(year, limit=5000):
     """
     Récupère les établissements créés dans l'année donnée, éventuellement filtré par région.
@@ -83,6 +82,8 @@ def query_sirene_rnd(year, limit=5000):
 # exemple d'utilisation
 #df = query_sirene(2023, limit=5000)
 #df.to_csv("sirene_rnd_2023_test.csv", index=False)
-df = query_sirene_rnd(2023, limit=5000)
-df.to_csv("sirene_rnd_2023_test.csv", index=False)
+
+data = pd.read_csv("data/emploi_regions_2020.csv")
+df = pd.DataFrame(data)
+print(df.head())
 
