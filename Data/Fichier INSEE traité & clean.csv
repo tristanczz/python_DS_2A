@@ -1,0 +1,131 @@
+﻿code_region,TIME_PERIOD,nb_creations,nom_region,code_court
+11,2015,145628,Île-de-France,IDF
+11,2016,165621,Île-de-France,IDF
+11,2017,184150,Île-de-France,IDF
+11,2018,215995,Île-de-France,IDF
+11,2019,246394,Île-de-France,IDF
+11,2020,255208,Île-de-France,IDF
+11,2021,281623,Île-de-France,IDF
+11,2022,288872,Île-de-France,IDF
+11,2023,295726,Île-de-France,IDF
+11,2024,312543,Île-de-France,IDF
+24,2015,16054,Centre-Val de Loire,CVL
+24,2016,16564,Centre-Val de Loire,CVL
+24,2017,17551,Centre-Val de Loire,CVL
+24,2018,20074,Centre-Val de Loire,CVL
+24,2019,23057,Centre-Val de Loire,CVL
+24,2020,24540,Centre-Val de Loire,CVL
+24,2021,29780,Centre-Val de Loire,CVL
+24,2022,29798,Centre-Val de Loire,CVL
+24,2023,29560,Centre-Val de Loire,CVL
+24,2024,31211,Centre-Val de Loire,CVL
+27,2015,17750,Bourgogne-Franche-Comté,BFC
+27,2016,18393,Bourgogne-Franche-Comté,BFC
+27,2017,19814,Bourgogne-Franche-Comté,BFC
+27,2018,21893,Bourgogne-Franche-Comté,BFC
+27,2019,25259,Bourgogne-Franche-Comté,BFC
+27,2020,27278,Bourgogne-Franche-Comté,BFC
+27,2021,31472,Bourgogne-Franche-Comté,BFC
+27,2022,30749,Bourgogne-Franche-Comté,BFC
+27,2023,31209,Bourgogne-Franche-Comté,BFC
+27,2024,33291,Bourgogne-Franche-Comté,BFC
+28,2015,19208,Normandie,NOR
+28,2016,20256,Normandie,NOR
+28,2017,21810,Normandie,NOR
+28,2018,25178,Normandie,NOR
+28,2019,29058,Normandie,NOR
+28,2020,31399,Normandie,NOR
+28,2021,36531,Normandie,NOR
+28,2022,35492,Normandie,NOR
+28,2023,35648,Normandie,NOR
+28,2024,37356,Normandie,NOR
+32,2015,34616,Hauts-de-France,HDF
+32,2016,36383,Hauts-de-France,HDF
+32,2017,39252,Hauts-de-France,HDF
+32,2018,44867,Hauts-de-France,HDF
+32,2019,53518,Hauts-de-France,HDF
+32,2020,56596,Hauts-de-France,HDF
+32,2021,67335,Hauts-de-France,HDF
+32,2022,65908,Hauts-de-France,HDF
+32,2023,64870,Hauts-de-France,HDF
+32,2024,69913,Hauts-de-France,HDF
+44,2015,33719,Grand Est,GES
+44,2016,35938,Grand Est,GES
+44,2017,38647,Grand Est,GES
+44,2018,42882,Grand Est,GES
+44,2019,49283,Grand Est,GES
+44,2020,53161,Grand Est,GES
+44,2021,64737,Grand Est,GES
+44,2022,63710,Grand Est,GES
+44,2023,62922,Grand Est,GES
+44,2024,67017,Grand Est,GES
+52,2015,24899,Pays de la Loire,PDL
+52,2016,25824,Pays de la Loire,PDL
+52,2017,28456,Pays de la Loire,PDL
+52,2018,30670,Pays de la Loire,PDL
+52,2019,36367,Pays de la Loire,PDL
+52,2020,38059,Pays de la Loire,PDL
+52,2021,46328,Pays de la Loire,PDL
+52,2022,46574,Pays de la Loire,PDL
+52,2023,44898,Pays de la Loire,PDL
+52,2024,47203,Pays de la Loire,PDL
+53,2015,21567,Bretagne,BRE
+53,2016,22198,Bretagne,BRE
+53,2017,23721,Bretagne,BRE
+53,2018,26677,Bretagne,BRE
+53,2019,30400,Bretagne,BRE
+53,2020,30802,Bretagne,BRE
+53,2021,38190,Bretagne,BRE
+53,2022,39099,Bretagne,BRE
+53,2023,38586,Bretagne,BRE
+53,2024,41653,Bretagne,BRE
+75,2015,49859,Nouvelle-Aquitaine,NAQ
+75,2016,51486,Nouvelle-Aquitaine,NAQ
+75,2017,56868,Nouvelle-Aquitaine,NAQ
+75,2018,64240,Nouvelle-Aquitaine,NAQ
+75,2019,73115,Nouvelle-Aquitaine,NAQ
+75,2020,74892,Nouvelle-Aquitaine,NAQ
+75,2021,89009,Nouvelle-Aquitaine,NAQ
+75,2022,89040,Nouvelle-Aquitaine,NAQ
+75,2023,87108,Nouvelle-Aquitaine,NAQ
+75,2024,92144,Nouvelle-Aquitaine,NAQ
+76,2015,54742,Occitanie,OCC
+76,2016,57424,Occitanie,OCC
+76,2017,60894,Occitanie,OCC
+76,2018,67998,Occitanie,OCC
+76,2019,79877,Occitanie,OCC
+76,2020,82537,Occitanie,OCC
+76,2021,97716,Occitanie,OCC
+76,2022,96354,Occitanie,OCC
+76,2023,96395,Occitanie,OCC
+76,2024,102485,Occitanie,OCC
+84,2015,67388,Auvergne-Rhône-Alpes,AURA
+84,2016,71238,Auvergne-Rhône-Alpes,AURA
+84,2017,78731,Auvergne-Rhône-Alpes,AURA
+84,2018,89087,Auvergne-Rhône-Alpes,AURA
+84,2019,106250,Auvergne-Rhône-Alpes,AURA
+84,2020,109905,Auvergne-Rhône-Alpes,AURA
+84,2021,124197,Auvergne-Rhône-Alpes,AURA
+84,2022,125673,Auvergne-Rhône-Alpes,AURA
+84,2023,120822,Auvergne-Rhône-Alpes,AURA
+84,2024,130063,Auvergne-Rhône-Alpes,AURA
+93,2015,57654,Provence-Alpes-Côte d’Azur,PACA
+93,2016,59961,Provence-Alpes-Côte d’Azur,PACA
+93,2017,63994,Provence-Alpes-Côte d’Azur,PACA
+93,2018,73635,Provence-Alpes-Côte d’Azur,PACA
+93,2019,84099,Provence-Alpes-Côte d’Azur,PACA
+93,2020,86574,Provence-Alpes-Côte d’Azur,PACA
+93,2021,106869,Provence-Alpes-Côte d’Azur,PACA
+93,2022,110475,Provence-Alpes-Côte d’Azur,PACA
+93,2023,103147,Provence-Alpes-Côte d’Azur,PACA
+93,2024,106186,Provence-Alpes-Côte d’Azur,PACA
+94,2015,3796,Corse,COR
+94,2016,4017,Corse,COR
+94,2017,4279,Corse,COR
+94,2018,4610,Corse,COR
+94,2019,5225,Corse,COR
+94,2020,4945,Corse,COR
+94,2021,5814,Corse,COR
+94,2022,6087,Corse,COR
+94,2023,6189,Corse,COR
+94,2024,6522,Corse,COR
