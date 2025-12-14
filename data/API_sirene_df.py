@@ -163,7 +163,7 @@ def query_sirene_batch(year, departement=None):
 #df3 = query_sirene_all(2024, 34)
 #print(df3)
 
-df_herault = query_sirene_batch(2023, departement="34")
+df_herault = query_sirene(2023)
 print(f"Nombre d'établissements Hérault 2023 : {len(df_herault)}")
 print(df_herault.head())
 
