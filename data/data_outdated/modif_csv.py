@@ -45,28 +45,27 @@ df.to_csv("data/taux_chomage_2015_2025.csv", index=False, sep=';', encoding='utf
 import pandas as pd
 
 # Charger le CSV
-df = pd.read_csv("data/data_outdated/EQTP07.csv", sep=';', encoding='utf-8')  # adapter le séparateur
+df = pd.read_csv("/Users/tristan/info/ENSAE/2A/python_DS_2A/data/data_outdated/EQTP07.csv", sep=';', encoding='utf-8')  # adapter le séparateur
 
-df = df.drop(df['ANNEE1']<=2014)
-
-"""
-l = 
-E : Ensemble
-R84 : Auvergne-Rhône-Alpes
-R27 : Bourgogne-Franche-Comté
-R53 : Bretagne
-R24 : Centre-Val de Loire
-R94 : Corse
-R44 : Grand Est
-R32 : Hauts-de-France
-R11 : Île-de-France
-R28 : Normandie
-R75 : Nouvelle-Aquitaine
-R76 : Occitanie
-R52 : Pays de la Loire
-R93 : Provence-Alpes-Côte d'Azur
-R1 : Guadeloupe
-R2 : Martinique
-R3 : Guyane
-R4 : La Réunion"""
-# %%
+df = df[df['ANNEE1'] > 2014]
+D = {'E':'Ensemble',
+'R84' : 'Auvergne-Rhône-Alpes',
+'R27' : 'Bourgogne-Franche-Comté',
+'R53' : 'Bretagne',
+'R24' : 'Centre-Val de Loire',
+'R94' : 'Corse',
+'R44' : 'Grand Est',
+'R32' : 'Hauts-de-France',
+'R11' : 'Île-de-France',
+'R28' : 'Normandie',
+'R75' : 'Nouvelle-Aquitaine',
+'R76' : 'Occitanie',
+'R52' : 'Pays de la Loire',
+'R93' : 'Provence-Alpes-Côte d_Azur',
+'R1' : 'Guadeloupe',
+'R2' : 'Martinique',
+'R3' : 'Guyane',
+'R4' : 'La Réunion'}
+df["REGION_NOM"] = df["REGION"].map(D)
+df = df.drop(columns="SEXE")
+print(df)
