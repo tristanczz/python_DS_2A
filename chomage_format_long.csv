@@ -1,0 +1,166 @@
+Region,Taux de chômage par région,TIME_VALUE
+Auvergne-Rhône-Alpes,8.975,2015
+Auvergne-Rhône-Alpes,8.775,2016
+Auvergne-Rhône-Alpes,8.125,2017
+Auvergne-Rhône-Alpes,7.725,2018
+Auvergne-Rhône-Alpes,7.3,2019
+Auvergne-Rhône-Alpes,7.1,2020
+Auvergne-Rhône-Alpes,6.925,2021
+Auvergne-Rhône-Alpes,6.225,2022
+Auvergne-Rhône-Alpes,6.275,2023
+Auvergne-Rhône-Alpes,6.35,2024
+Auvergne-Rhône-Alpes,6.45,2025
+Bourgogne-Franche-Comté,9.325,2015
+Bourgogne-Franche-Comté,9.0,2016
+Bourgogne-Franche-Comté,8.2,2017
+Bourgogne-Franche-Comté,7.725,2018
+Bourgogne-Franche-Comté,7.4,2019
+Bourgogne-Franche-Comté,6.925,2020
+Bourgogne-Franche-Comté,6.625,2021
+Bourgogne-Franche-Comté,6.25,2022
+Bourgogne-Franche-Comté,6.4,2023
+Bourgogne-Franche-Comté,6.55,2024
+Bourgogne-Franche-Comté,6.75,2025
+Bretagne,8.9,2015
+Bretagne,8.65,2016
+Bretagne,7.925,2017
+Bretagne,7.525,2018
+Bretagne,7.025,2019
+Bretagne,6.825,2020
+Bretagne,6.4,2021
+Bretagne,5.825,2022
+Bretagne,5.925,2023
+Bretagne,5.95,2024
+Bretagne,6.1,2025
+Centre-Val de Loire,9.675,2015
+Centre-Val de Loire,9.55,2016
+Centre-Val de Loire,8.85,2017
+Centre-Val de Loire,8.475,2018
+Centre-Val de Loire,8.05,2019
+Centre-Val de Loire,7.4,2020
+Centre-Val de Loire,7.125,2021
+Centre-Val de Loire,6.775,2022
+Centre-Val de Loire,6.8,2023
+Centre-Val de Loire,6.875,2024
+Centre-Val de Loire,6.9,2025
+Corse,10.425,2015
+Corse,10.0,2016
+Corse,9.425,2017
+Corse,8.8,2018
+Corse,8.075,2019
+Corse,7.85,2020
+Corse,6.725,2021
+Corse,6.1,2022
+Corse,6.375,2023
+Corse,6.475,2024
+Corse,6.35,2025
+France entière (hors Mayotte),10.35,2015
+France entière (hors Mayotte),10.025,2016
+France entière (hors Mayotte),9.4,2017
+France entière (hors Mayotte),9.025,2018
+France entière (hors Mayotte),8.45,2019
+France entière (hors Mayotte),8.025,2020
+France entière (hors Mayotte),7.85,2021
+France entière (hors Mayotte),7.275,2022
+France entière (hors Mayotte),7.3,2023
+France entière (hors Mayotte),7.375,2024
+France entière (hors Mayotte),7.5,2025
+France métropolitaine,10.025,2015
+France métropolitaine,9.725,2016
+France métropolitaine,9.1,2017
+France métropolitaine,8.725,2018
+France métropolitaine,8.175,2019
+France métropolitaine,7.85,2020
+France métropolitaine,7.65,2021
+France métropolitaine,7.05,2022
+France métropolitaine,7.1,2023
+France métropolitaine,7.15,2024
+France métropolitaine,7.3,2025
+Grand Est,10.25,2015
+Grand Est,9.925,2016
+Grand Est,9.225,2017
+Grand Est,8.6,2018
+Grand Est,8.125,2019
+Grand Est,7.775,2020
+Grand Est,7.65,2021
+Grand Est,7.05,2022
+Grand Est,7.15,2023
+Grand Est,7.225,2024
+Grand Est,7.2,2025
+Hauts-de-France,12.575,2015
+Hauts-de-France,12.2,2016
+Hauts-de-France,11.625,2017
+Hauts-de-France,11.2,2018
+Hauts-de-France,10.4,2019
+Hauts-de-France,9.625,2020
+Hauts-de-France,9.35,2021
+Hauts-de-France,8.8,2022
+Hauts-de-France,9.025,2023
+Hauts-de-France,9.0,2024
+Hauts-de-France,9.0,2025
+Normandie,10.25,2015
+Normandie,10.05,2016
+Normandie,9.35,2017
+Normandie,8.9,2018
+Normandie,8.225,2019
+Normandie,7.925,2020
+Normandie,7.55,2021
+Normandie,6.825,2022
+Normandie,6.825,2023
+Normandie,7.05,2024
+Normandie,7.15,2025
+Nouvelle-Aquitaine,9.725,2015
+Nouvelle-Aquitaine,9.45,2016
+Nouvelle-Aquitaine,8.775,2017
+Nouvelle-Aquitaine,8.325,2018
+Nouvelle-Aquitaine,7.75,2019
+Nouvelle-Aquitaine,7.375,2020
+Nouvelle-Aquitaine,7.075,2021
+Nouvelle-Aquitaine,6.5,2022
+Nouvelle-Aquitaine,6.4,2023
+Nouvelle-Aquitaine,6.6,2024
+Nouvelle-Aquitaine,6.75,2025
+Occitanie,12.075,2015
+Occitanie,11.7,2016
+Occitanie,10.925,2017
+Occitanie,10.475,2018
+Occitanie,9.9,2019
+Occitanie,9.375,2020
+Occitanie,9.275,2021
+Occitanie,8.675,2022
+Occitanie,8.725,2023
+Occitanie,8.8,2024
+Occitanie,8.9,2025
+Pays de la Loire,8.95,2015
+Pays de la Loire,8.5,2016
+Pays de la Loire,7.775,2017
+Pays de la Loire,7.375,2018
+Pays de la Loire,7.05,2019
+Pays de la Loire,7.025,2020
+Pays de la Loire,6.55,2021
+Pays de la Loire,5.9,2022
+Pays de la Loire,5.75,2023
+Pays de la Loire,5.875,2024
+Pays de la Loire,6.1,2025
+Provence-Alpes-Côte d'Azur,11.5,2015
+Provence-Alpes-Côte d'Azur,11.25,2016
+Provence-Alpes-Côte d'Azur,10.7,2017
+Provence-Alpes-Côte d'Azur,10.3,2018
+Provence-Alpes-Côte d'Azur,9.6,2019
+Provence-Alpes-Côte d'Azur,9.075,2020
+Provence-Alpes-Côte d'Azur,8.875,2021
+Provence-Alpes-Côte d'Azur,8.15,2022
+Provence-Alpes-Côte d'Azur,8.025,2023
+Provence-Alpes-Côte d'Azur,7.9,2024
+Provence-Alpes-Côte d'Azur,7.95,2025
+Île-de-France,8.875,2015
+Île-de-France,8.65,2016
+Île-de-France,8.15,2017
+Île-de-France,7.9,2018
+Île-de-France,7.4,2019
+Île-de-France,7.325,2020
+Île-de-France,7.5,2021
+Île-de-France,6.925,2022
+Île-de-France,6.925,2023
+Île-de-France,7.0,2024
+Île-de-France,7.25,2025
