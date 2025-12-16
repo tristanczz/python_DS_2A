@@ -3,3 +3,6 @@ data/data_outdated
 
 API_FranceTravail.py
 API_sirene_df.py
+
+data/population_regions_1975_2025.csv
+population_regions.py
