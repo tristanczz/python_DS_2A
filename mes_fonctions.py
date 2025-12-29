@@ -1002,3 +1002,87 @@ def build_regression2_csv(
     regression2.to_csv(out_csv_path, index=False)
 
     return regression2
+
+
+def build_regression3_csv(
+    path_diplome: str,
+    path_chomage: str,
+    path_creation_per_1000: str,
+    path_population: str,
+    path_salaires: str,
+    out_csv_path: str,
+    drop_domtom: bool = True,
+) -> pd.DataFrame:
+    """
+    Régression 3 :
+    mêmes variables que la régression 2 + (taux de chômage)^2
+    """
+
+    # Chargement
+    diplome = pd.read_csv(path_diplome)
+    chomage = pd.read_csv(path_chomage)
+    creation = pd.read_csv(path_creation_per_1000)
+    population = pd.read_csv(path_population)
+    salaires = pd.read_csv(path_salaires, sep=";")
+
+    # Harmonisation
+    chomage = chomage.rename(columns={"Region": "region_nom", "TIME_VALUE": "TIME_PERIOD"})
+    salaires = salaires.rename(columns={"REGION_NOM": "region_nom", "ANNEE1": "TIME_PERIOD"})
+
+    # Nettoyage clés
+    for df in (diplome, chomage, creation, population, salaires):
+        if "region_nom" in df.columns:
+            df["region_nom"] = (
+                df["region_nom"].astype(str).str.replace("’", "'", regex=False).str.strip()
+            )
+        if "TIME_PERIOD" in df.columns:
+            df["TIME_PERIOD"] = pd.to_numeric(df["TIME_PERIOD"], errors="coerce")
+
+    # DOM-TOM
+    if drop_domtom:
+        dom_tom = ["Guadeloupe", "Martinique", "Guyane", "La Réunion", "Mayotte"]
+        for df in (diplome, chomage, creation, population, salaires):
+            if "region_nom" in df.columns:
+                df.drop(df[df["region_nom"].isin(dom_tom)].index, inplace=True)
+
+    # Merges
+    df = creation.merge(
+        diplome[["region_nom", "Pourcentage_diplomes_superieur"]],
+        on="region_nom", how="left"
+    )
+
+    df = df.merge(
+        chomage[["region_nom", "TIME_PERIOD", "Taux de chômage par région"]],
+        on=["region_nom", "TIME_PERIOD"], how="left"
+    )
+
+    df = df.merge(
+        population[["region_nom", "TIME_PERIOD", "variation_population_pourcentage"]],
+        on=["region_nom", "TIME_PERIOD"], how="left"
+    )
+
+    df = df.merge(
+        salaires[["region_nom", "TIME_PERIOD", "SALAIRE"]],
+        on=["region_nom", "TIME_PERIOD"], how="left"
+    )
+
+    # Terme quadratique du chômage
+    df["chomage_carre"] = df["Taux de chômage par région"] ** 2
+
+    # Table finale
+    regression3 = df[
+        [
+            "creations_per_1000",
+            "Taux de chômage par région",
+            "chomage_carre",
+            "Pourcentage_diplomes_superieur",
+            "variation_population_pourcentage",
+            "SALAIRE",
+            "TIME_PERIOD",
+            "region_nom",
+        ]
+    ].dropna()
+
+    regression3.to_csv(out_csv_path, index=False)
+
+    return regression3
