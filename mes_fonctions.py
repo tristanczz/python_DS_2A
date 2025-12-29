@@ -779,8 +779,8 @@ def build_regression0_csv(
         how="left",
     )
 
-    # Table finale regression2
-    regression2 = df[
+    # Table finale regression0
+    regression0= df[
         [
             "creations_per_1000",
             "Taux de chômage par région",
@@ -793,10 +793,10 @@ def build_regression0_csv(
         ]
     ].copy()
 
-    regression2 = regression2.dropna()
-    regression2.to_csv(out_csv_path, index=False)
+    regression0 = regression0.dropna()
+    regression0.to_csv(out_csv_path, index=False)
 
-    return regression2
+    return regression0
 
 
 def build_regression1_csv(
@@ -965,14 +965,6 @@ def build_regression2_csv(
     df = pd.merge(
         df,
         population[["region_nom", "TIME_PERIOD", "variation_population_pourcentage"]],
-        on=["region_nom", "TIME_PERIOD"],
-        how="left",
-    )
-
-    # + densité pop
-    df = pd.merge(
-        df,
-        population[["region_nom", "TIME_PERIOD", "densité de population"]],
         on=["region_nom", "TIME_PERIOD"],
         how="left",
     )
